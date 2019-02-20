@@ -1,0 +1,16 @@
+*
+!ext
+!ext/**
+!src
+!src/**
+!schematic
+!schematic/operational-fanifier-schematic-cache.lib
+!schematic/operational-fanifier-schematic.pro
+!schematic/operational-fanifier-schematic.sch
+!.git*
+!*.yml
+!*Makefile
+!*.sublime-project
+!LICENSE
+!gh_rsa.enc
+!README.md
