@@ -5,6 +5,8 @@
 !src/**
 !schematic
 !schematic/operational-fanifier-schematic-cache.lib
+!schematic/operational-fanifier-schematic.kicad_pcb
+!schematic/operational-fanifier-schematic.net
 !schematic/operational-fanifier-schematic.pro
 !schematic/operational-fanifier-schematic.sch
 !.git*
