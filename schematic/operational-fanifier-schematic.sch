@@ -5,10 +5,10 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
+Title "operational-fanifier – This blows!"
+Date "2019-02-24"
+Rev "0.1.0"
+Comp "nabijaczleweli"
 Comment1 ""
 Comment2 ""
 Comment3 ""
