@@ -1,8 +1,6 @@
 *
-!ext
-!ext/**
-!src
-!src/**
+!pictures
+!pictures/**
 !schematic
 !schematic/operational-fanifier-schematic-cache.lib
 !schematic/operational-fanifier-schematic.kicad_pcb
