@@ -373,36 +373,34 @@ Connection ~ 1100 3700
 $Comp
 L Transistor_BJT:BC337 Q2
 U 1 1 5C6E3FE9
-P 4150 4800
-F 0 "Q2" H 4341 4846 50  0000 L CNN
-F 1 "BC337" H 4341 4755 50  0000 L CNN
-F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4350 4725 50  0001 L CIN
-F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 4150 4800 50  0001 L CNN
-	1    4150 4800
+P 4150 5300
+F 0 "Q2" H 4341 5346 50  0000 L CNN
+F 1 "BC337" H 4341 5255 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 4350 5225 50  0001 L CIN
+F 3 "http://www.nxp.com/documents/data_sheet/BC817_BC817W_BC337.pdf" H 4150 5300 50  0001 L CNN
+	1    4150 5300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R5
 U 1 1 5C6E3FF0
-P 3800 4800
-F 0 "R5" V 3593 4800 50  0000 C CNN
-F 1 "2k2" V 3684 4800 50  0000 C CNN
-F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal" V 3730 4800 50  0001 C CNN
-F 3 "~" H 3800 4800 50  0001 C CNN
-	1    3800 4800
+P 3800 5300
+F 0 "R5" V 3593 5300 50  0000 C CNN
+F 1 "2k2" V 3684 5300 50  0000 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3730 5300 50  0001 C CNN
+F 3 "~" H 3800 5300 50  0001 C CNN
+	1    3800 5300
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3650 4000 3650 4800
 $Comp
 L Motor:Fan M1
 U 1 1 5C6E4728
-P 4250 5300
-F 0 "M1" H 4408 5396 50  0000 L CNN
-F 1 "Fan" H 4408 5305 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 5310 50  0001 C CNN
-F 3 "~" H 4250 5310 50  0001 C CNN
-	1    4250 5300
+P 4250 4900
+F 0 "M1" H 4408 4996 50  0000 L CNN
+F 1 "Fan" H 4408 4905 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 4910 50  0001 C CNN
+F 3 "~" H 4250 4910 50  0001 C CNN
+	1    4250 4900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -550,4 +548,8 @@ Wire Wire Line
 	5050 2650 4800 2650
 Wire Wire Line
 	3750 3400 4650 3400
+Text Notes 4550 4700 0    50   ~ 0
+120mA-140mA continuous\nca. 200mA when tested in this switched setup
+Wire Wire Line
+	3650 4000 3650 5300
 $EndSCHEMATC
