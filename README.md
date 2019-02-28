@@ -35,7 +35,7 @@ Thus, if the reading from the Sensor is higher than the pre-set voltage, the out
 
 The timing capacitor's discharge rate can be controlled via the customisable potentiometer (`RV2`),
   which will, with the given `C1 = 33µF`, `R3 = 100kΩ`, and `RV2 = 1MΩ` values and the datasheet-specified threshold voltage of `Vₜₕ = 0.7V𝒸𝒸`
-  as well as perfect linearity and full opening charge, vary between `0.7 * 33µF * (100kΩ + 0) = 2.31s` and `0.7 * 33µF * (100kΩ + 1MΩ) = 25.41s`.
+  as well as perfect linearity and full opening charge, vary between `(1 - 0.7) * 33µF * (100kΩ + 0) = 0.99s` and `(1 - 0.7) * 33µF * (100kΩ + 1MΩ) = 10.89s`.
 
 The positive terminal of the timing capacitor is tied to the other input of the primary OR gate, meaning it will keep it active for longer than just the Sensor would.
 
