@@ -64,7 +64,7 @@ U 1 1 5C6D4016
 P 1300 1350
 F 0 "U3" H 1100 1271 50  0000 R CNN
 F 1 "LM335Z" H 1100 1180 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" V 1500 1220 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" V 1500 1220 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm235.pdf" V 1500 1220 50  0001 C CNN
 	1    1300 1350
 	1    0    0    -1  
@@ -240,7 +240,7 @@ U 1 1 5C6DF841
 P 4650 3200
 F 0 "SW1" V 4696 3012 50  0000 R CNN
 F 1 "SW_SPDT" V 4605 3012 50  0000 R CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 4650 3200 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4650 3200 50  0001 C CNN
 F 3 "" H 4650 3200 50  0001 C CNN
 	1    4650 3200
 	0    -1   -1   0   
@@ -398,7 +398,7 @@ U 1 1 5C6E4728
 P 4250 4900
 F 0 "M1" H 4408 4996 50  0000 L CNN
 F 1 "Fan" H 4408 4905 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4250 4910 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 4250 4910 50  0001 C CNN
 F 3 "~" H 4250 4910 50  0001 C CNN
 	1    4250 4900
 	1    0    0    -1  
