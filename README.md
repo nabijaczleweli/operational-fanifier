@@ -55,6 +55,3 @@ The layout is very cramped due to my use of a very peculiar perfboard; it probab
 #### Model
 
 ![PCB layout 3D model](pictures/kicad_3d.png)
-
-Note that some components (notably `U3` and `SW1`) use more pins than in the real-world version –
-  that is due to the fact that I couldn't find the way to force-assign a three-terminal element a two-terminal footprint.
