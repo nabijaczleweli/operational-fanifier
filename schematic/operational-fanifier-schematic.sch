@@ -398,7 +398,7 @@ U 1 1 5C6E4728
 P 4250 4900
 F 0 "M1" H 4408 4996 50  0000 L CNN
 F 1 "Fan" H 4408 4905 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal" H 4250 4910 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x01_P2.54mm_Vertical_SMD" H 4250 4910 50  0001 C CNN
 F 3 "~" H 4250 4910 50  0001 C CNN
 	1    4250 4900
 	1    0    0    -1  
