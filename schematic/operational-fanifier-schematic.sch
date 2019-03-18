@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "operational-fanifier – This blows!"
-Date "2019-02-24"
-Rev "0.1.1"
+Date "2019-04-19"
+Rev "0.1.2"
 Comp "nabijaczleweli"
 Comment1 ""
 Comment2 ""

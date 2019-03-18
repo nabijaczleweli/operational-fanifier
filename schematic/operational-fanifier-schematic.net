@@ -1,14 +1,14 @@
 (export (version D)
   (design
     (source P:\Embedded\operational-fanifier\schematic\operational-fanifier-schematic.sch)
-    (date "19/04/2019 21:01:18")
+    (date "19/04/2019 23:44:55")
     (tool "Eeschema (5.0.0)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "operational-fanifier – This blows!")
         (company nabijaczleweli)
-        (rev 0.1.1)
-        (date 2019-02-24)
+        (rev 0.1.2)
+        (date 2019-04-19)
         (source operational-fanifier-schematic.sch)
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
